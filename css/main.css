@@ -1,0 +1,369 @@
+body{
+    font-family : 'Raleway', sans-serif;
+
+}
+header {
+    height: 110px;
+}
+nav li {
+    display: inline-block;
+    padding-right: 35px;
+    padding-left: 35px;
+    font-size: 1.3rem;
+}
+ nav div {
+    list-style: none;
+    padding-right: 50px;
+    float: right;
+    margin: 30px 50px 50px 0px;
+}
+header div img {
+    width: 120px;
+    float: left;
+    margin: 30px 20px 20px 0px;
+}
+/* design pour tablette */
+
+@media screen and (max-width: 992px) and (min-width: 769px) {
+    header {
+        height: 130px;
+    }
+}
+  /*--------------------------------------------------*/
+  /*main*/
+
+  .search{
+    padding-left: 50px;
+  }
+  .formulaire {
+    display: flex;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    width: 450px;
+    height: 3rem; 
+    border: 1px solid rgb(224, 224, 224);
+    border-radius: 15px;
+
+  } 
+  .dot-search {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    border-radius: 15px 0px 0px 15px;
+    background-color: rgb(224, 224, 224);
+  }
+  .fa-location-dot{
+      display: block;
+    align-self: center;
+    margin: 0 auto;
+  }
+  .entree-search{
+    width: 240px;
+    height: 92%;
+    padding: 0 auto;
+    border: none;
+  }
+  .boutton-rec{
+    height: 50px;
+    width: 160px;
+    padding: 0 auto;
+    color: rgb(255, 255, 255);
+    background-color: rgb(4, 0, 248);
+    border: none;
+    border-radius: 0px 15px 15px 0px ;
+    }
+    
+    .logo-rec{
+        display: none;
+    }
+    .ul-filtre{
+        display: flex;
+        flex-wrap: wrap;
+        list-style: none;
+        padding-top: 10px;
+        align-items: center;
+    }
+
+    .filtre{
+        flex-wrap: wrap;
+        display: flex;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        height: 50px;
+        padding-right: 20px;
+        margin-right: 30px;
+        margin-top: 20px;
+        
+    }
+    .filt{
+        font-weight: 800;
+        font-size: 1.3rem;
+        display: flex;
+        align-items: center;
+        align-content: center;
+  
+        }
+        
+    .cercle-logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 3;
+        width: 50px;
+        height: 50px; 
+        background-color: rgb(231, 231, 255);
+        border-radius: 50%;
+    }
+    .filtre i{
+        color: blue;  
+        z-index: 2; 
+    }
+
+    .filtre p{
+        font-weight: 800;
+        font-size: 1.3rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        height: 44px;
+        position: relative;
+        left: -25px;
+        z-index: 1;
+        padding-left: 40px;
+        padding-right: 20px;
+        border: 3px solid rgb(224, 224, 224);
+        border-radius: 0px 25px 25px 0px;
+    }
+    .info-num{
+        display: flex;
+        align-items: center;
+        padding-top: 20px;
+        margin-bottom: 20px;
+    }
+    .fa-info{
+        display: inline-block;
+        padding-top: 5px;
+        text-align: center;
+        height: 20px;
+        width: 20px;
+        margin-right: 5px;
+        color: blue;
+        font-size: 0.8rem;
+        border: 1px solid rgb(224, 224, 224);
+        border-radius: 50%;
+    }
+    .main-affichage{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .logement{
+        display: flex;
+        width: 57%;
+        flex-wrap: wrap;
+        background-color: rgb(224, 224, 224);
+        border-radius: 20px;
+       padding-left: 2%;
+       margin-right: 3%;
+    }
+    .soustitre{
+        width: 100%;
+       margin-bottom: 10px;
+       margin-top: 40px;
+       font-weight: 800;
+       font-size:1.8rem;
+    }
+    .vignette{
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+        justify-content: start;
+        background-color: white;
+        border-radius: 20px;
+        padding-bottom: 7px;
+       margin: 15px 30px 15px 0px;
+       box-shadow: 0px 0px 8px 3px rgba(0, 0, 0, 0.2);
+    }
+    .vignette-photo{
+        display: flex;
+        object-fit: cover;
+        margin: 0px auto;
+        margin-top: 7px;
+        padding-bottom: 5px;
+        width: 95%;
+        height: 170px;
+        border-radius: 15px 15px 0px 0px;
+       
+    }
+    .sub-vignette{
+        width: 100%;
+        margin: 3px 0px 13px 15px ; 
+    }
+    .pop-text{
+        width: 60%;
+        height: 100%;
+        margin: 5px 10px 5px 0px;
+        padding-bottom: 0px;
+        box-shadow: unset;    
+    }
+    .sub-vig-pop{
+        display: flex;
+        height: 80%;
+        align-items: end;
+        margin: 3px 0px 10px 15px ; 
+    }
+    
+      .fa-star{
+        font-size: 0.8rem;
+    }
+    .star-bleu{
+        color: blue;
+    }
+    .star-gris{
+        color: lightgrey;
+    }
+    .vignette-foot{
+        width: 700px;
+        align-items: center;
+        align-content: center;
+    }
+    .populaire{
+        display: flex;
+        width: 31%;
+        flex-wrap: wrap;
+        background-color: rgb(224, 224, 224);
+        border-radius: 20px;
+        padding-left: 40px;
+        margin-right: 60px;
+    }
+    .star-noir{
+        float: right;
+        margin-right: 40px;
+        font-size: 1.5rem;
+    }
+    .vign-popu{
+        display: flex;
+        width: 90%;
+        height: 22%;
+        background-color: white;
+        flex-direction: row;
+        border-radius: 20px;
+        padding: 7px 7px 7px 7px;
+        margin: 15px 30px 15px 0px;
+        box-shadow: 0px 0px 8px 3px rgba(0, 0, 0, 0.2);
+    }
+    .popu-photo{
+        display: flex;
+        object-fit: cover;
+        height: 100%;
+        width: 40%;
+        align-items: center;
+        align-content: center;
+        border-radius: 15px 0px 0px 15px;
+    }
+    .activites{
+        width: 100%;   
+        height: 100%;
+        background-color: rgb(255, 255, 255);
+    }
+    .grp-activite{
+        display: flex;
+        width: 100%;
+        height: 500px;
+        flex-direction: column;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        box-sizing: border-box;
+        background-color: rgb(255, 255, 255);
+    }
+    .grp-activite > div{
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        width: 22%;
+    }
+    .grp-activite >  div:nth-child(odd){
+        height: 100%;
+        border-radius: 15px;
+        box-shadow: 0px 0px 8px 3px rgba(0, 0, 0, 0.2);
+        box-sizing: content-box;
+    }
+    .grp-activite >  div:nth-child(even){
+        height: 100%;
+        justify-content: space-between;
+        box-sizing: content-box;
+        box-shadow:none;
+        flex-wrap: wrap;
+    }
+    .med-vignette1{
+        display: flex;
+        flex-direction: column;
+        flex: 2;
+        width: 100%;
+        border-radius: 15px;
+        box-sizing: content-box;
+        box-shadow: 0px 0px 8px 3px rgba(0, 0, 0, 0.2);
+    }
+    .low-vignette{
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        width: 100%;
+        box-sizing: content-box;
+        box-shadow: 0px 0px 8px 3px rgba(0, 0, 0, 0.2);
+    }
+
+    .med-vignette{
+        display: flex;
+        flex-direction: column;
+        height: 40%;
+        width: 100%;
+        box-sizing: content-box;
+        box-shadow: 0px 0px 8px 3px rgba(0, 0, 0, 0.2);
+    }
+    .card-img{
+        width: 100%;
+        height: 77%;
+        background-repeat:no-repeat;
+        background-position: center;
+        background-size: cover;
+        border-radius: 10px 10px 0px 0px;
+    }
+    .fort-img{
+        background-image: url("/images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg");  
+    }
+    .frioul-img{
+        background-image: url("/images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg");
+    }
+    .act-photo{
+        height: 100%;
+        width: 100%;
+        max-height: 500px;
+        object-fit: cover;
+    }
+    .low-vignette img{
+        height: 10vw;
+    }
+    .sub-act{
+      width: 100%;
+        background-color: rgb(255, 255, 255);
+        
+    }
+ 
+    footer{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 350px;
+        margin-top: 30px;
+        margin-left: 0;
+        margin-left: 0;
+        background-color: rgb(224, 224, 224);
+    }
+    footer div{
+flex: 1;
+    }
