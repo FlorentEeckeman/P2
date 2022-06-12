@@ -38,12 +38,12 @@
         width: 50%;
         list-style: none;
         padding-bottom: 20px;
-        border-bottom: 3px solid lightgray;
+        border-bottom: 3px solid #F2F2F2;
      }
      nav li:hover{
     
         border-top: 3px solid transparent;
-        border-bottom: 4px solid blue;
+        border-bottom: 4px solid #0065FC;
     }
   /*-----------------------main---------------------------*/
   .form-div{
@@ -103,6 +103,7 @@ width: 100%;
 }
 .vignette{
     width: 85%;
+    height: 270px;
     margin-right: 0px;
 }
 .sub-vignette{
@@ -119,31 +120,55 @@ width: 100%;
 .activites{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
- 
-}
-.grp-activite > div {
     width: 100%;
-    
+    padding-left: 0px;
+    padding-top: 0px;
+    align-items: center;
 }
 .grp-activite{
     height: auto;
+    width: 100%;
+    overflow: none;
+    padding-bottom: 0px;
+    align-content: center;
+}
+.grp-activite > div{
     width: 90%;
-
 }
 .vign-act{
     width: 100%;
-    margin-bottom: 30px;
-
+    margin-bottom: 50px;
 }
 .card-img{
     height: 240px;
+}
+.big-card {
+    width: 100%; 
+}
+.double-vignette{
+   width: 100%; 
+}
+.med-vignette1{
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.low-vignette{
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.big-vignette {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.med-vignette{
+    margin-right: 0px;
+    margin-left: 0px;
 }
 footer{
     display: flex;
     flex-direction: column;
     height: auto;
+    margin-top: 0px;
 }
 .foot-col{
    padding-left: 40px;

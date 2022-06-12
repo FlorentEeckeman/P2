@@ -1,0 +1,69 @@
+
+.logement{
+    width: 100%;
+    background-color: white;
+    padding-left: 0px;
+    justify-content: space-around
+}
+.populaire{
+    width: 100%;
+    height: 800px;
+    border-radius: 0px;
+    padding-bottom: 40px;
+}
+.vignette{
+    width: 40%;
+}
+.soustitre{
+    padding-bottom: 30px;
+}
+
+.vign-popu{
+    width: 75%;
+}
+.activites{
+    width: auto;
+   
+}
+.grp-activite{
+    width: 100%;
+    overflow: auto;
+}
+.double-vignette{
+    width: 800px;
+    flex-direction: column;
+}
+.grp-activite > div{
+    width: auto;
+}
+
+.vign-act{
+    width: 400px;
+    height: 100%;
+}
+.med-vignette1{
+    width: 400px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.low-vignette{
+    width: 400px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.big-vignette{
+    width: 400px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.big-card{
+    width: 400px;
+}
+.med-vignette{
+    width: 400px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.foot-col{
+    padding-left: 30px;
+}
