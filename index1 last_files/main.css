@@ -186,18 +186,17 @@ header div img {
         flex-direction: row;
         justify-content: space-between;
         width: 100%;
-        height: 100%;
+   
         flex-wrap: wrap;
         box-sizing: border-box;
     }
     .logement{
         display: flex;
         width: 62%;
-        height: 100%;
         flex-wrap: wrap;
         background-color: #F2F2F2;
         border-radius: 20px;
-
+       padding-left: 40px;
        box-sizing: border-box;
       
     }
@@ -210,48 +209,26 @@ header div img {
        font-weight: 800;
        font-size: 2.0rem;
     }
-    .titre-pop{
-        display: flex;
-        flex-direction: row;
-        width: 100%;
-        align-items: baseline;
-     padding-right: 20px;
-    }
     .titre-log{
         padding-bottom: 20px;
-        padding-left: 20px;
-    
-    }
-    
-    .heber-div{
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        align-content: center;
-        justify-content: space-around;
-    align-content: space-around;
+        padding-left: 0px;
     }
     .vignette{
         display: flex;
-        flex-direction: row;
-       width: 29%;
-       height: 32%;
-       padding: 10px;
-       min-height: 300px;
-    }
-    .h-class{
-        
+        flex-direction: column;
+        width: 27%;
+        height: 230px;
         background-color: white;
         border-radius: 20px;
         padding: 7px;
-        height: 100%;
-        width: 100%;
+       margin: 15px 40px 15px 0px;
        box-shadow: 0px 0px 8px 3px rgba(0, 0, 0, 0.1);
     }
     .vignette-photo{
-        
+        display: flex;
         object-fit: cover;
+        margin: 0px auto;
+        padding-bottom: 5px;
         width: 100%;
         height: 60%;
         border-radius: 15px 15px 0px 0px;
@@ -260,7 +237,7 @@ header div img {
     .log-text{
         display: flex;
         flex-direction: column;
-        justify-content: space-around;
+        justify-content: space-evenly;
         height: 40%;
         padding-left: 20px;
     }
@@ -290,15 +267,11 @@ header div img {
         height: 30px;
         align-items: center;
         align-content: center;
-        padding-left: 20px;
     }
     .a-class{
         width: 100%;
         height: 100%;
-        display: flex;
-        flex-direction: column;
     }
-    
     .populaire{
         display: flex;
         width: 36%;
@@ -315,7 +288,7 @@ header div img {
     .vign-popu{
         display: flex;
         width: 90%;
-        height: 20%;
+        height: 23%;
         align-items: center;
         background-color: white;
         flex-direction: row;
@@ -334,7 +307,6 @@ header div img {
     }
     .a-pop{
         display: flex;
-        flex-direction: row;
     }
     .vign-text{
         display: flex;
@@ -381,7 +353,10 @@ header div img {
         background-color: rgb(255, 255, 255);
     }
     .grp-activite > div{
+        display: flex;
+        flex-direction: column;
         box-sizing: border-box;
+  
         width: 22%;
     }
     .big-vignette{
@@ -392,19 +367,16 @@ header div img {
     }
     .double-vignette{
         height: 100%;
-        display: flex;
+        justify-content: space-between;
         box-sizing: content-box;
         box-shadow:none;
         flex-wrap: wrap;
-        align-content: space-between;
     }
     .half-card{
         height: calc(100% - 60px);
-        flex: 1;
     }
     .big-card{
-   
-        flex: 1;
+        height: calc(100% - 60px);
     }
     .med-vignette1{
         display: flex;
@@ -451,8 +423,10 @@ header div img {
         object-fit: cover;
     }
     .sub-act{ 
-        padding: 10px;
+        padding-left: 30px;
         font-size: 1.3rem;
+        height: 60px;
+        line-height: 60px;
         margin: 0;
         border-radius: 0px 0px 10px 10px;
         background-color: rgb(255, 255, 255);     
@@ -464,12 +438,13 @@ header div img {
         height: 250px;
         margin-top: 30px;
         background-color: #F2F2F2;
-        padding: 50px;
     }
     footer div{
 flex: 1;
     }
-  
+    .foot-col{
+        padding-top: 40px;
+    }
     .test-foot{
-        font-size: 1.2rem;
+        font-size: 1.3rem;
     }
