@@ -203,7 +203,6 @@ header div img {
     }
     .soustitre{
         width: 90%;
-        height: 20px;
        margin-bottom: 0px;
        margin-top: 0px;
        padding-top: 50px;
@@ -219,8 +218,7 @@ header div img {
     }
     .titre-log{
         padding-bottom: 20px;
-        padding-left: 20px;
-    
+        padding-left: 30px;
     }
     
     .heber-div{
@@ -313,6 +311,7 @@ header div img {
     .star-noir{
         float: right;
         font-size: 1.3rem;
+   
     }
     .vign-popu{
         display: flex;
