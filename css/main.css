@@ -387,8 +387,6 @@ header div img {
     .big-vignette{
         height: 100%;
         border-radius: 15px;
-        box-shadow: 0px 0px 8px 3px rgba(0, 0, 0, 0.1);
-        box-sizing: content-box;
     }
     .double-vignette{
         height: 100%;
@@ -410,19 +408,14 @@ header div img {
         display: flex;
         flex-direction: column;
         height: 55%;
-        width: 100%;
-        border-radius: 15px;
-        box-sizing: content-box;
-        box-shadow: 0px 0px 8px 3px rgba(0, 0, 0, 0.1);
+        width: 100%; 
     }
     .low-vignette{
         display: flex;
         flex-direction: column;
         height: 35%;
         width: 100%;
-        border-radius: 15px;
         box-sizing: content-box;
-        box-shadow: 0px 0px 8px 3px rgba(0, 0, 0, 0.1);
     }
 
     .med-vignette{
