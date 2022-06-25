@@ -21,7 +21,7 @@
      nav div{
         float: none;
         width: 100%;
-        padding: 0 auto;
+        padding: 0;
         margin:  0 auto;
     }
     nav ul {
@@ -129,7 +129,7 @@ width: 100%;
 .grp-activite{
     height: auto;
     width: 100%;
-    overflow: none;
+    overflow: unset;
 
     padding-top: 0px;
     align-content: center;
@@ -170,7 +170,7 @@ width: 100%;
 .med-vignette{
     margin-right: 0px;
     margin-left: 0px;
-    box-sizing: none;
+    box-sizing: unset;
     box-shadow: none;
 }
 footer{

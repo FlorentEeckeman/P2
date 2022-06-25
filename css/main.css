@@ -26,7 +26,11 @@ nav li {
 nav li:hover{
     
     border-top: 3px solid #0065FC;
+    
 }
+ .a-top:hover{
+    color: #0065FC;
+ }
  nav div {
     list-style: none;
     float: right;
@@ -80,7 +84,7 @@ header div img {
   .entree-search{
     width: 240px;
     height: 92%;
-    padding: 0 auto;
+    padding: 0;
     border: none;
     font-size: 1.3rem;
     font-weight: 600;
@@ -88,7 +92,7 @@ header div img {
   .boutton-rec{
     height: 50px;
     width: 160px;
-    padding: 0 auto;
+    padding: 0;
     color: white;
     background-color: #0065FC;
     border: none;
@@ -119,6 +123,7 @@ header div img {
         margin-top: 20px;
         
     }
+    
     .filt{
         font-weight: 800;
         font-size: 1.5rem;
@@ -138,9 +143,15 @@ header div img {
         background-color: #DEEBFF;
         border-radius: 50%;
     }
+    .cercle-logo:hover{
+        background-color: #279b78;
+    }
     .filtre i{
         color: #0065FC;  
         z-index: 2; 
+    }
+    .filtre i:hover{
+        color: #b1231e;
     }
 
     .filtre p{
@@ -158,6 +169,10 @@ header div img {
         padding-right: 20px;
         border: 3px solid #F2F2F2;
         border-radius: 0px 25px 25px 0px;
+    }
+    .filtre p:hover{
+        color: beige;
+        background-color: darkslategrey;
     }
     .info-num{
         display: flex;
@@ -305,7 +320,7 @@ header div img {
         justify-content: center;
         background-color: #F2F2F2;
         border-radius: 20px;
-        padding: 0 auto;
+        padding: 0;
     }
     .star-noir{
         float: right;
@@ -335,7 +350,7 @@ header div img {
     .a-pop{
         display: flex;
         flex-direction: row;
-        border-radius: none;
+        border-radius: unset;
     box-shadow: none;
     }
     .vign-text{
